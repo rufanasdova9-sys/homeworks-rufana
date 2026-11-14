@@ -16,3 +16,13 @@ def get_lowest_score(scores):
     
 scores = [78, 91, 85, 67, 95, 88]
 get_lowest_score(scores)
+def process_students(students):
+    n=0
+    for i in range(4):
+        print(students[n])
+        n=n+1
+students = ["Ali", "Leyla", "Kamran", "Aysel"]
+
+process_students(students)
+print("Total students: "+str(len(students)))
+
