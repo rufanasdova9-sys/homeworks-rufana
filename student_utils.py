@@ -25,4 +25,10 @@ students = ["Ali", "Leyla", "Kamran", "Aysel"]
 
 process_students(students)
 print("Total students: "+str(len(students)))
+def register_students(*students):
+    print("Registered Students:")
+    for student in students:
+        print(student)
+    print(f"Total: {len(students)}")
 
+register_students("Ali", "Leyla", "Kamran")
