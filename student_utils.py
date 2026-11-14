@@ -1,0 +1,18 @@
+def calculate_average(scores):
+    n=0
+    for i in scores:
+       n=i+n
+    n=n/len(scores)
+    print('Average score: '+str(n))
+scores = [78, 91, 85, 67, 95, 88]
+calculate_average(scores)
+def get_highest_score(scores):
+    print("Highest score: "+str(max(scores)))
+    
+scores = [78, 91, 85, 67, 95, 88]
+get_highest_score(scores)
+def get_lowest_score(scores):
+    print("Lowest score: "+str(min(scores)))
+    
+scores = [78, 91, 85, 67, 95, 88]
+get_lowest_score(scores)
